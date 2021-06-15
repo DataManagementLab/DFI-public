@@ -71,6 +71,7 @@ Examples of distributed use cases can be found in src/use-cases/
 Use the distributed experiment runner for easily running use-cases: https://github.com/mjasny/distexprunner 
 
 ## Installation:
+DFI can optionally be installed, however for development git submodule is recommended.
 Install the shared library after compilation with 'make install'.
 By default, files are installed at /usr/local/. This can by changed
 by setting CMAKE_INSTALL_PREFIX when running cmake.
