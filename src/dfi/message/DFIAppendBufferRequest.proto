@@ -1,0 +1,20 @@
+syntax = "proto3";
+package dfi;
+
+message DFIAppendBufferRequest {
+    message Segment {
+        uint64 offset = 1;
+        uint64 size = 2;
+        uint64 threshold = 3;
+    }
+    string name = 1;
+    uint64 node_id = 2;
+    repeated Segment segment = 3;
+    uint64 segmentsPerWriter = 4;
+    bool reuseSegments = 5;
+    uint64 numberAppenders = 6;
+    uint64 segmentSizes = 7;
+    bool register = 8;
+    uint32 buffertype = 9;
+    bool cache_align_data = 10;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+package dfi;
+
+message DFICreateFlowResponse {
+	uint32 return = 1;
+}

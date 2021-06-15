@@ -1,0 +1,5 @@
+This Distributed Radix Hash Join is an adaption from Claude Barthels' MPI join from https://www.systems.ethz.ch/node/334 .   
+
+Paper: http://www.vldb.org/pvldb/vol10/p517-barthels.pdf   
+
+To run use runExperiment.py with https://github.com/mjasny/distexprunner   

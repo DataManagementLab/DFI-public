@@ -1,0 +1,7 @@
+syntax = "proto3";
+package dfi;
+
+message DFIFlowBarrierResponse {
+	uint64 offset = 1;
+	uint32 return = 2;
+}

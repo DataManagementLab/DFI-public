@@ -1,0 +1,4 @@
+[submodule "src/rdma-manager"]
+	path = src/rdma-manager
+	url = https://github.com/DataManagementLab/rdma-manager.git
+    branch = master

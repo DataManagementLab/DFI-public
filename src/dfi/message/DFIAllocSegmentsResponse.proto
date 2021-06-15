@@ -1,0 +1,12 @@
+syntax = "proto3";
+package dfi;
+
+
+message DFIAllocMultipleSegmentsResponse {
+    repeated DFIAllocSegmentsResponse responses = 1;
+}
+
+message DFIAllocSegmentsResponse {
+    uint64 offset = 1;
+    uint32 return = 2;
+}

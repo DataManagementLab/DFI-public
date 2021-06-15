@@ -1,0 +1,18 @@
+syntax = "proto3";
+package dfi;
+
+message DFIRetrieveBufferResponse {
+	message Segment {
+        uint64 offset = 1;
+        uint64 size = 2;
+    }
+    string name = 1;
+    uint64 node_id = 2;
+    repeated Segment segment = 3;
+    uint64 segmentsPerWriter = 4;
+    uint64 segmentSizes = 5;
+    uint32 buffertype = 6;
+    uint64 local_rdma_ptr = 7;
+    bool cache_align_data = 8;
+    uint32 return = 9;
+}

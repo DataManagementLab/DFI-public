@@ -1,0 +1,6 @@
+syntax = "proto3";
+package dfi;
+
+message DFIFreeSegmentsRequest {
+    string name = 1;
+}

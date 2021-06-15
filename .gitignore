@@ -1,0 +1,53 @@
+# Prerequisites
+*.d
+
+
+# Mac files
+.DS_Store
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# CMake generated install files
+install_manifest.txt
+CMakeFiles/
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# vscode
+.vscode/
+build/
+
+
+#custom 
+radix_*_REL_*
+histogram_bench_table
+output.log
+.editorconfig
+__pycache__/

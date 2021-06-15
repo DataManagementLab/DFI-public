@@ -1,0 +1,5 @@
+add_subdirectory(memory)
+add_subdirectory(flow)
+add_subdirectory(type)
+add_subdirectory(registry)
+add_subdirectory(message)

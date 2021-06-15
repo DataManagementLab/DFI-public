@@ -1,0 +1,6 @@
+syntax = "proto3";
+package dfi;
+
+message DFIFlowBarrierRequest {
+	string name = 1;
+}

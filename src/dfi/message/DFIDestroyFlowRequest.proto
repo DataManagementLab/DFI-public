@@ -1,0 +1,7 @@
+syntax = "proto3";
+package dfi;
+
+message DFIDestroyFlowRequest {
+	string name = 1;
+    uint64 targetid = 2;
+}

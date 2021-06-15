@@ -1,0 +1,21 @@
+syntax = "proto3";
+package dfi;
+
+message DFIRetrieveFlowHandleResponse {
+	string name = 1;
+	repeated uint64 sources = 2;
+	repeated uint64 source_nodeids = 3;
+	repeated uint64 targets = 4;
+	repeated uint64 target_nodeids = 5;
+	repeated uint32 schema_column_types = 6;
+	repeated string schema_column_names = 7;
+	uint32 grouping_key_index = 8;
+	uint32 flowType = 9;
+	uint32 segments_per_ring = 10;
+	uint64 segment_sizes = 11;
+	uint32 optimization = 12;
+	uint32 aggr_func = 13;
+	string multicast_address = 14;
+	uint64 global_seq_offset  = 15;
+	uint32 return = 16;
+}
