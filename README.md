@@ -11,6 +11,8 @@ we show in our experiment, DFI is able to support a wide variety of
 data-centric applications with high performance at a low complexity
 for the applications.
 
+Link: https://doi.org/10.1145/3448016.3452816
+
 ## Cloning repository
 The DFI repository includes another repository (rdma-manager) as a submodule. Therefore, after cloning the repository run:
 ```
@@ -71,10 +73,10 @@ Examples of distributed use cases can be found in src/use-cases/
 Use the distributed experiment runner for easily running use-cases: https://github.com/mjasny/distexprunner 
 
 ## Installation:
-DFI can optionally be installed, however for development git submodule is recommended.
-Install the shared library after compilation with 'make install'.
-By default, files are installed at /usr/local/. This can by changed
-by setting CMAKE_INSTALL_PREFIX when running cmake.
+DFI can optionally be installed, however for development git submodule is recommended.   
+Install the shared library after compilation with 'make install'.   
+By default, files are installed at /usr/local/.  
+This can by changed by setting CMAKE_INSTALL_PREFIX when running cmake.
 
 Usage:
 When compiling external code that uses DFI, link it with -ldfi.
