@@ -29,7 +29,7 @@ GNU Make (tested with 4.1)
 CMake (tested with 3.10)  
 
 ## Examples
-Examples can be found in the `src/examples/` folder.
+Examples can be found in the `src/gtest/examples/` folder.
 
 Simple example of a shuffle flow:
 ```cpp
